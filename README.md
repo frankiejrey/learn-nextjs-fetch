@@ -9,7 +9,7 @@ A Next.js repository designed to teach developers about Next.js' Client-Side Ren
 
 ## How to use
 
-- Use ```npm run dev`` to start the development server
+- Use ```npm run dev``` to start the development server
 - Server will load at ```http://localhost:8080/```
 
 ## Lessons
