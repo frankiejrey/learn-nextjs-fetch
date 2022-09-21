@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-export default function FetchDisplay({ data }) {
+export default function ClientSideRendering({ data }) {
 
   const [users, setUsers] = useState([]);
 

@@ -9,7 +9,7 @@ export const getServerSideProps = async () => {
   }
 };
 
-export default function FetchPost({ data }) {
+export default function ServerSideRendering({ data }) {
 
   return (
     <div>
