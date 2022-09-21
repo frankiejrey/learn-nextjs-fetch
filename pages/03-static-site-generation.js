@@ -18,7 +18,7 @@ export default function StaticSiteGeneration({ data }) {
       {data.map(event => (
         <div key={event.id}>
           <p>Name: {event.name}</p>
-          {/* <Link href={`/users-ssr/${event.id}`}>View more</Link> */}
+          <Link href={`/users-ssg/${event.id}`}>View more</Link>
           <hr></hr>
         </div>
       ))}
